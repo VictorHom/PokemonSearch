@@ -1,0 +1,88 @@
+.pkList{
+	width: 1000px;
+	padding-top: 20px;
+}
+.pokemon{
+	width: 1000px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+.pokemonName{
+	width: 200px;
+	float: left;
+}
+.nameCategory{
+	width: 200px;
+	float: left;
+}
+
+.pkid{
+	width: 50px;
+	float: left;
+}
+.numberCategory{
+	width: 50px;
+	float: left;	
+}
+
+.types{
+	width: 300px;
+	float: left;
+}
+.typesCategory{
+	width: 300px;
+	float: left;	
+}
+.abilities{	
+	width: 300px;
+	float: left;
+}
+.abilitiesCategory{
+	width: 300px;
+	float: left;	
+}
+
+
+body{
+	padding-left: 50px;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.search{
+	padding-bottom: 50px;
+}
+
+html{
+    font:14px normal Arial, sans-serif;
+    color:#626771;
+    background-color:#fff;
+}
+
+input{
+	padding-left: 10px;
+}
+
+input[type=text]{
+    font: inherit;
+    border: 2px solid #a3d8d6;
+/*    padding: 13px 12px;*/
+    font-size: 15px;
+    box-shadow: 0 1px 1px #DDD;
+    width: 200px;
+    outline: none;
+    display: block;
+    color: #7B8585;
+/*    margin: 0 auto 20px;*/
+}
+
+.pokemon{
+	display: block;
+    padding: 15px 20px;
+    background-color: #F8F8F8;
+    color: #7B8585;
+    margin-bottom: 3px;
+    position: relative;
+    height: 40px;
+    transition: 0.3s;
+}
